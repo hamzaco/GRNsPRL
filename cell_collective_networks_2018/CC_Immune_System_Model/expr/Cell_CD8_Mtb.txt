@@ -1,0 +1,1 @@
+( Cell_Dendritic_Mtb )  OR ( Cell_Macrophage_Mtb )  OR ( Cell_CD4_Naive AND ( ( ( Cell_Dendritic_Mtb ) ) )    )  OR ( Cell_Neutrophil_Mtb ) 

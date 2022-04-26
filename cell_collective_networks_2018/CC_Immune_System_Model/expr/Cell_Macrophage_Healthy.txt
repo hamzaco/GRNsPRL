@@ -1,0 +1,1 @@
+( Cell_Macrophage_PF )  OR ( Param_HealthyState5 )  OR ( ( ( ( Cell_Macrophage_Healthy  ) AND NOT ( Rep_Mtb  )  ) AND NOT ( PV_HIV  )  ) AND NOT ( Promastigotes_Leishmania  ) ) 

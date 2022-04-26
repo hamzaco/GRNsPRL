@@ -1,0 +1,1 @@
+( ( ( ( ( ( Merozoites_PF  ) AND NOT ( Cell_Macrophage_PF  )  ) AND NOT ( Cell_Dendritic_PF  )  ) AND NOT ( IgG AND ( ( ( Cell_B_PF ) ) )     )  ) AND NOT ( NO AND ( ( ( Cell_Macrophage_PF ) ) )     )  ) AND NOT ( O2 AND ( ( ( Cell_Macrophage_PF ) ) )     ) )  OR ( ( ( Cell_Erythrocyte_PF  ) AND NOT ( Cell_Macrophage_PF  )  ) AND NOT ( Cell_Dendritic_PF  ) ) 

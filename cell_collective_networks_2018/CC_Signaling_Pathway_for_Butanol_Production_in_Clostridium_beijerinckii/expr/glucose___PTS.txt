@@ -1,0 +1,1 @@
+( ( glucose AND ( ( ( PTS  AND cell membrane ) ) )     ) AND NOT ( sporulation AND ( ( ( NOT cell membrane ) ) )     ) )  OR ( ( PTS AND ( ( ( glucose  AND cell membrane ) ) )     ) AND NOT ( sporulation AND ( ( ( NOT cell membrane ) ) )     ) ) 

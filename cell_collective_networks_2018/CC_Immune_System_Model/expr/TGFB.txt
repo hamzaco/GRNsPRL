@@ -1,0 +1,1 @@
+( Cell_Keratinocytes_HPV )  OR ( Cell_Treg_PF AND ( ( ( Cell_Th1_PF ) ) )    )  OR ( Cell_Epithelial_CandidaAlbicans ) 

@@ -1,0 +1,1 @@
+( ( ( ( PV_IAV  ) AND NOT ( IgG  )  ) AND NOT ( IgA  )  ) AND NOT ( Cell_Macrophage_IAV  ) )  OR ( ( ( ( Cell_Epithelial_IAV  ) AND NOT ( IgG  )  ) AND NOT ( IgA  )  ) AND NOT ( Cell_Macrophage_IAV  ) ) 

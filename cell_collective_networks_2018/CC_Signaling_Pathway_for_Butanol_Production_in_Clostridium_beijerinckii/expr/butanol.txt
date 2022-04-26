@@ -1,0 +1,1 @@
+( ( butanal  ) AND NOT ( sporulation  ) )  OR ( ( adhB  ) AND NOT ( sporulation  ) )  OR ( ( adhA  ) AND NOT ( sporulation  ) )  OR ( ( NAD(P)H  ) AND NOT ( sporulation  ) )  OR ( ( bdhAB  ) AND NOT ( sporulation  ) ) 

@@ -1,0 +1,8 @@
+Uterine_Lining = ( Estrogens )
+Androgens = ( Thecal_Cells )
+LH = ( ( GnRH ) and not ( Birth_Control_Pill ) )
+Estrogens = ( Androgens ) or ( Birth_Control_Pill ) or ( Granulosa_Cells )
+Negative_Feedback_to_Hypothalamus_and_Pars_Distalis = ( Estrogens )
+Thecal_Cells = ( LH )
+FSH = ( ( GnRH ) and not ( Birth_Control_Pill ) )
+Granulosa_Cells = ( FSH )

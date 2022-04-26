@@ -1,0 +1,1 @@
+( ( adc  ) AND NOT ( sporulation  ) )  OR ( ( acetoacetate  ) AND NOT ( sporulation  ) ) 

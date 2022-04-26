@@ -1,0 +1,1 @@
+( ( sigH  ) AND NOT ( spoIIAB AND ( ( ( NOT spoIIE ) ) )     ) )  OR ( ( spoIIE  ) AND NOT ( spoIIAB AND ( ( ( NOT spoIIE ) ) )     ) ) 

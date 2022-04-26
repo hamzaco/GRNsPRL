@@ -1,0 +1,1 @@
+( ( ( 3MBz AND ( ( ( XylS ) )  AND ( ( RpoD  OR RpoS  OR RpoH ) ) )     ) AND NOT ( ProX  )  ) AND NOT ( Crc  ) )  OR ( ( ( m-xyl AND ( ( ( Upper ) )  AND ( ( RpoD  OR RpoS  OR RpoH ) )  AND ( ( XylS ) ) )     ) AND NOT ( ProX  )  ) AND NOT ( Crc  ) )  OR ( ( ( XylSh AND ( ( ( RpoD  OR RpoS  OR RpoH ) ) )     ) AND NOT ( ProX  )  ) AND NOT ( Crc  ) ) 

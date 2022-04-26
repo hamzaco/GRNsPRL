@@ -1,0 +1,1 @@
+( ( erythrocyte_set  ) AND NOT ( Merozoites_PF  ) ) 

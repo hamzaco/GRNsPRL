@@ -1,0 +1,1 @@
+( ( IL4 AND ( ( ( Cell_Macrophage_Healthy  AND Larvae_Helminth  AND IL13 ) ) )     ) AND NOT ( IgE  ) )  OR ( ( Cell_Macrophage_Healthy AND ( ( ( Larvae_Helminth ) ) )     ) AND NOT ( IgE  ) ) 

@@ -1,0 +1,1 @@
+( ( IL2 AND ( ( ( Cell_Th1_PF ) ) )     ) AND NOT ( IL10 AND ( ( ( Cell_Treg_PF ) ) )     ) )  OR ( ( Cell_NK_Healthy AND ( ( ( IL12  AND Cell_Dendritic_PF ) ) )     ) AND NOT ( IL10 AND ( ( ( Cell_Treg_PF ) ) )     ) ) 

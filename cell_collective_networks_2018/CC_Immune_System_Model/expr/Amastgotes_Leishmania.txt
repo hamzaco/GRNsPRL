@@ -1,0 +1,1 @@
+( ( Cell_Dendritic_Leishmania  ) AND NOT ( IFNg  ) )  OR ( ( Cell_Macrophage_Leishmania  ) AND NOT ( IFNg  ) ) 

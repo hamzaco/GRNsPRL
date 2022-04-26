@@ -1,0 +1,1 @@
+( thlA )  OR ( pyruvate )  OR ( pfo )  OR ( acetate AND ( ( ( acetoacetyl-CoA ) ) )    ) 

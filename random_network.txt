@@ -1,0 +1,4 @@
+a = not c and not d
+b = not b and d
+c = a and not c
+d = not b and not d

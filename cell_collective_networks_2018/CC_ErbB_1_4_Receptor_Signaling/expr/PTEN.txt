@@ -1,0 +1,1 @@
+( ( Stress  ) AND NOT ( PTEN_I  ) )  OR ( ( Pix_Cool AND ( ( ( Rho ) )  AND ( ( PI3K ) )  AND ( ( Cdc42 ) ) )     ) AND NOT ( PTEN_I  ) ) 

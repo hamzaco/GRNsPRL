@@ -1,0 +1,1 @@
+( ( ( ( glucose  ) AND NOT ( ethanol  )  ) AND NOT ( acetone  )  ) AND NOT ( butanol  ) )  OR ( ( ( butyrate  ) AND NOT ( ethanol  )  ) AND NOT ( acetone  ) ) 

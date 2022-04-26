@@ -1,0 +1,1 @@
+( Cell_NK_Healthy AND ( ( ( Promastigotes_Leishmania  AND Cell_Neutrophil_Leishmania ) ) )    ) 

@@ -1,0 +1,1 @@
+( ( glucose + PTS  ) AND NOT ( butyrate  ) )  OR ( ( ptb  ) AND NOT ( butyrate  ) )  OR ( ( buk1  ) AND NOT ( butyrate  ) ) 

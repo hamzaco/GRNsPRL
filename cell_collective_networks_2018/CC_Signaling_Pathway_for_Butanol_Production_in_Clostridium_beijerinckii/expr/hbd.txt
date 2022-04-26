@@ -1,0 +1,1 @@
+ NOT ( ( sporulation )  OR ( spo0A+p ) )

@@ -1,0 +1,1 @@
+( IFNg AND ( ( ( Cell_Dendritic_Healthy  AND Cell_NK_PF ) )  OR ( ( Cell_Dendritic_Healthy  AND Cell_Th1_PF ) ) )    )  OR ( Cell_Dendritic_Healthy AND ( ( ( Cell_Erythrocyte_PF ) ) )    ) 

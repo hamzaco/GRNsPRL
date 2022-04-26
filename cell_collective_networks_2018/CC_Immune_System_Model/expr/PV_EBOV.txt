@@ -1,0 +1,1 @@
+( ( ( Cell_Monocytes_EBOV  ) AND NOT ( TNFa  )  ) AND NOT ( IgG  ) )  OR ( ( ( Cell_Dendritic_EBOV  ) AND NOT ( TNFa  )  ) AND NOT ( IgG  ) )  OR ( ( ( Cell_Macrophage_EBOV  ) AND NOT ( TNFa  )  ) AND NOT ( IgG  ) )  OR ( ( ( Cell_Hepatocytes_EBOV  ) AND NOT ( TNFa  )  ) AND NOT ( IgG  ) ) 

@@ -1,0 +1,5 @@
+Emx2 = ( ( ( ( Coup_fti ) and not ( Pax6 ) ) and not ( Sp8 ) ) and not ( Fgf8 ) )
+Pax6 = ( ( ( Sp8 ) and not ( Emx2 ) ) and not ( Coup_fti ) )
+Sp8 = ( ( Fgf8 ) and not ( Emx2 ) )
+Fgf8 = ( ( Fgf8 and ( ( ( Sp8 ) ) ) ) and not ( Emx2 ) )
+Coup_fti = ( not ( ( Fgf8 ) or ( Sp8 ) ) ) or not ( Fgf8 or Sp8 )

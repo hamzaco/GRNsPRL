@@ -1,0 +1,1 @@
+( ( Cell_CD4_Naive AND ( ( ( IL12  AND Cell_Dendritic_Mtb  AND IL27  AND IL18 ) ) )     ) AND NOT ( IL10  ) ) 

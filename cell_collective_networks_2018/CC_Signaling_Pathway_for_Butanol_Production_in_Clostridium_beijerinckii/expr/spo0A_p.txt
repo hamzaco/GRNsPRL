@@ -1,0 +1,1 @@
+( ( spo0A AND ( ( ( phosphorylation ) ) )     ) AND NOT ( sporulation  ) )  OR ( ( phosphorylation AND ( ( ( spo0A ) ) )     ) AND NOT ( sporulation  ) )  OR ( ( sigA AND ( ( ( phosphorylation  AND spo0A ) ) )     ) AND NOT ( sporulation  ) ) 

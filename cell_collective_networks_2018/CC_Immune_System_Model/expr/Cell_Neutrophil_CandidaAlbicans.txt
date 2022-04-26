@@ -1,0 +1,1 @@
+( Cell_Neutrophil_Healthy AND ( ( ( IL17A ) )  OR ( ( GM_CSF  AND IL1  AND G_CSF  AND IL8 ) ) )    ) 

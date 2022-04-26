@@ -1,0 +1,13 @@
+Virus_HPV
+Larvae_Helminth
+Virus_EBOV
+paramPV
+Fungi_CandidaAlbicans
+HealthyState
+Bacterium_Mtb
+Promastigotes_Leishmania
+Virus_HIV
+erythrocyte_set
+epithelial_set
+Sporozoites_PF
+Virus_IAV

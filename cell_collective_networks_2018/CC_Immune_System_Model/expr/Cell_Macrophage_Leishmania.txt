@@ -1,0 +1,1 @@
+( ( ( ( Cell_Macrophage_Healthy AND ( ( ( Amastgotes_Leishmania  OR Promastigotes_Leishmania ) ) )     ) AND NOT ( ROS  )  ) AND NOT ( IL10  )  ) AND NOT ( iNOS  ) ) 

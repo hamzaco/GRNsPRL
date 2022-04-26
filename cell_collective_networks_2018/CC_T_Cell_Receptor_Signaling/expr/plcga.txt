@@ -1,0 +1,1 @@
+( ( plcgb AND ( ( ( itk  AND slp76  AND vav1  AND zap70 ) ) )     ) AND NOT ( ccblp2  ) ) 

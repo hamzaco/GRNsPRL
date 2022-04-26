@@ -1,0 +1,1 @@
+( bcd )  OR ( EtfAB )  OR ( ald )  OR ( crotonoyl-CoA )  OR ( butyrate AND ( ( ( acetoacetyl-CoA ) ) )    ) 

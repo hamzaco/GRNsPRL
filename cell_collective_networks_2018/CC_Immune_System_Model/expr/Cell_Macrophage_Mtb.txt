@@ -1,0 +1,1 @@
+( Cell_Macrophage_Healthy AND ( ( ( Rep_Mtb  OR Bacterium_Mtb ) ) )    ) 

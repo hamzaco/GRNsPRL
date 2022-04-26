@@ -1,0 +1,1 @@
+( sigG AND ( ( ( sigA ) )  AND ( ( NOT cell membrane ) ) )    )  OR ( sigK AND ( ( ( NOT cell membrane ) )  AND ( ( sigA ) ) )    )  OR ( sigE AND ( ( ( sigA ) )  AND ( ( NOT cell membrane ) ) )    )  OR ( spo0A+p AND ( ( ( NOT cell membrane ) ) )    )  OR ( sigH AND ( ( ( NOT cell membrane ) ) )    ) 

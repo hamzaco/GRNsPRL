@@ -1,0 +1,1 @@
+( ( epithelial_set  ) AND NOT ( Cell_Epithelial_helminth  ) ) 

@@ -1,0 +1,1 @@
+( Cell_Monocytes_EBOV )  OR ( Cell_Macrophage_IAV )  OR ( Cell_Dendritic_Mtb )  OR ( ( Cell_cDendritic AND ( ( ( Cell_CD8_HIV ) ) )     ) AND NOT ( IL10  ) )  OR ( Cell_Dendritic_Leishmania )  OR ( Cell_Macrophage_EBOV )  OR ( Cell_Dendritic_EBOV )  OR ( Cell_Macrophage_Mtb )  OR ( Cell_Dendritic_PF )  OR ( Cell_Macrophage_PF ) 

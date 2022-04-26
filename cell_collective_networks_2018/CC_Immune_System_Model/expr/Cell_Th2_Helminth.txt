@@ -1,0 +1,1 @@
+( ( ( ( ( IL4 AND ( ( ( Cell_CD4_Naive  AND Cell_Dendritic_Helminth ) ) )     ) AND NOT ( TGFB  )  ) AND NOT ( IL10  )  ) AND NOT ( IFNg  )  ) AND NOT ( IL27  ) ) 

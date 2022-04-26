@@ -1,0 +1,1 @@
+( Cell_monocytes_leishmania AND ( ( ( Promastigotes_Leishmania ) ) )    )  OR ( Cell_Dendritic_Healthy AND ( ( ( Promastigotes_Leishmania ) ) )    ) 

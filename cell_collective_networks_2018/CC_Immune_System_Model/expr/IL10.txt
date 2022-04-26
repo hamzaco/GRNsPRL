@@ -1,0 +1,1 @@
+( Cell_Dendritic_Mtb AND ( ( ( Cell_CD8_Mtb ) ) )    )  OR ( Cell_Treg_PF AND ( ( ( Cell_Th1_PF ) ) )    )  OR ( Cell_Treg_HIV )  OR ( Cell_Macrophage_EBOV )  OR ( Cell_Monocytes_EBOV )  OR ( Cell_Macrophage_Mtb AND ( ( ( Cell_Th1_Mtb ) ) )    )  OR ( Cell_Keratinocytes_HPV )  OR ( Cell_Treg_IAV )  OR ( Cell_Th2_Helminth )  OR ( Cell_Macrophage_Leishmania ) 

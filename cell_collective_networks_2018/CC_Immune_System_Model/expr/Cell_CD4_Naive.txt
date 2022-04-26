@@ -1,0 +1,1 @@
+( ( Cell_CD4_Naive  ) AND NOT ( Cell_CD4_HIV_infected  ) )  OR ( ( HealthyState  ) AND NOT ( Cell_CD4_HIV_infected  ) ) 

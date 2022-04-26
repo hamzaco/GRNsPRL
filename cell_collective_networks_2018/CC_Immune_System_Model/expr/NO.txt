@@ -1,0 +1,1 @@
+( Cell_Macrophage_PF AND ( ( ( Cell_Th1_PF ) ) )    )  OR ( Cell_Macrophage_Leishmania AND ( ( ( Cell_Th1_Leishmania ) ) )    )  OR ( Cell_Macrophage_PF AND ( ( ( IFNg ) ) )    )  OR ( Cell_Neutrophil_Leishmania ) 

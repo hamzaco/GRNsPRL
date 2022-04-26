@@ -1,0 +1,1 @@
+( ( acetyl-p AND ( ( ( acetate ) ) )     ) AND NOT ( sporulation  ) ) 

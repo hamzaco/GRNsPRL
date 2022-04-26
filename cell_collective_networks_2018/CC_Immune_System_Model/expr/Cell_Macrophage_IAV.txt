@@ -1,0 +1,1 @@
+( ( Cell_Macrophage_Healthy AND ( ( ( Cell_Epithelial_IAV ) ) )     ) AND NOT ( Cell_CD8_IAV  ) ) 

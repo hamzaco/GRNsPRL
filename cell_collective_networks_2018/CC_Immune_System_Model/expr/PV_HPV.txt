@@ -1,0 +1,1 @@
+( ( Cell_Keratinocytes_HPV  ) AND NOT ( Cell_CD8_HPV  ) ) 

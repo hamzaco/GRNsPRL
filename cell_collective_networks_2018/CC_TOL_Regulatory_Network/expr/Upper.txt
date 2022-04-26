@@ -1,0 +1,1 @@
+( ( ( ( ( m-xyl AND ( ( ( RpoN  AND IHF  AND XylR ) ) )     ) AND NOT ( PtsN  )  ) AND NOT ( TurA  )  ) AND NOT ( PprA  )  ) AND NOT ( Crc  ) ) 

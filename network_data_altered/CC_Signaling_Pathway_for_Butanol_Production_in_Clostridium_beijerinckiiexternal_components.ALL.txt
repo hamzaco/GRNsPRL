@@ -1,0 +1,7 @@
+NADH
+sigA
+NADPH
+phosphorylation
+glucose
+spoIIE
+PTS

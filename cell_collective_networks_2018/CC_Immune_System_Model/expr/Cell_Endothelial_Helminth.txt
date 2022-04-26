@@ -1,0 +1,1 @@
+( ( ( ( Cell_Endothelial_Healthy AND ( ( ( Larvae_Helminth ) ) )     ) AND NOT ( IgE  )  ) AND NOT ( Cell_Th2_Helminth  )  ) AND NOT ( IgG  ) ) 

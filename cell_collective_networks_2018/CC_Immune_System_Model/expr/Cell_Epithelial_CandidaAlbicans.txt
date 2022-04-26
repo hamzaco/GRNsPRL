@@ -1,0 +1,1 @@
+( ( ( ( Cell_Epithelial_Healthy AND ( ( ( DaughterCells_CandidaAlbicans ) ) )     ) AND NOT ( Cell_Neutrophil_CandidaAlbicans  )  ) AND NOT ( IL17A  )  ) AND NOT ( IL22  ) ) 

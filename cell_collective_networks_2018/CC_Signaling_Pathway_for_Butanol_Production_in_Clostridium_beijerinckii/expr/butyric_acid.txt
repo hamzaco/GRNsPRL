@@ -1,0 +1,1 @@
+( ( butyryl-p AND ( ( ( butyrate ) ) )     ) AND NOT ( sporulation  ) ) 

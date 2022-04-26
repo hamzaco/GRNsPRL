@@ -1,0 +1,1 @@
+( ( ( adhA  ) AND NOT ( sporulation  )  ) AND NOT ( ald  ) )  OR ( ( ( adhB  ) AND NOT ( sporulation  )  ) AND NOT ( ald  ) )  OR ( ( ( acetaldehyde  ) AND NOT ( sporulation  )  ) AND NOT ( ald  ) ) 

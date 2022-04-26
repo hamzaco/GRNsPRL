@@ -1,0 +1,116 @@
+import json
+from statistics import mean
+import pandas as pd
+import altair as alt
+main_dir="C:/Users/Lenovo/PycharmProjects/INDEP"
+with open(main_dir+'/data_dist_sens_bias_gene_networks.json', 'r') as fp:
+    data_original = json.load(fp)
+
+
+more_than_two_inputs={'Sensitivity':[],'Bias':[],'Distribution':[],'input_size':[]}
+all_genes= {'Sensitivity':[],'Bias':[],'Distribution':[],'input_size':[]}
+sens_average_just_large_inputs={'Cell':[], 'Sensitivity':[]}
+sens_average={'Cell':[], 'Sensitivity':[]}
+
+
+for cell in data_original:
+    ave=[]
+    ave_large=[]
+    for gene in data_original[cell]:
+        dist=gene[0]
+        s=gene[1]
+        bias=gene[2]
+        input_size=sum(dist)
+        if input_size > 2:
+            more_than_two_inputs['Sensitivity'].append(s)
+            more_than_two_inputs['Bias'].append(bias)
+            more_than_two_inputs['Distribution'].append(dist)
+            more_than_two_inputs['input_size'].append(input_size)
+            ave_large.append(s)
+        all_genes['Sensitivity'].append(s)
+        all_genes['Bias'].append(bias)
+        all_genes['Distribution'].append(dist)
+        all_genes['input_size'].append(input_size)
+        ave.append(s)
+
+    sens_average['Cell'].append(cell)
+    sens_average['Sensitivity'].append(mean(ave))
+    sens_average_just_large_inputs['Cell'].append(cell)
+    try:
+        sens_average_just_large_inputs['Sensitivity'].append(mean(ave_large))
+    except:
+        sens_average_just_large_inputs['Sensitivity'].append(0)
+
+
+
+
+all_genes=pd.DataFrame(all_genes)
+more_than_two_inputs=pd.DataFrame(more_than_two_inputs)
+
+chart1=alt.Chart(all_genes).transform_fold(
+    ['Sensitivity'],
+).transform_joinaggregate(
+    total='count(*)'
+).transform_calculate(
+    pct='1 / datum.total'
+).mark_bar(
+).encode(
+    alt.X("Sensitivity:Q", bin=alt.Bin(step=0.05)),
+    alt.Y('sum(pct):Q', axis=alt.Axis(format='%', title='Percentages'))
+).properties(
+    title= 'All genes Sensitivity Distribution'
+)
+
+
+chart2=alt.Chart(more_than_two_inputs).transform_fold(
+    ['Sensitivity'],
+).transform_joinaggregate(
+    total='count(*)'
+).transform_calculate(
+    pct='1 / datum.total'
+).mark_bar(
+).encode(
+    alt.X("Sensitivity:Q", bin=alt.Bin(step=0.05)),
+    alt.Y('sum(pct):Q', axis=alt.Axis(format='%', title='Percentages'))
+).properties(
+    title= 'More than two inputs'
+)
+
+alt.vconcat(chart2,chart1).show()
+
+
+
+sens_average=pd.DataFrame(sens_average)
+sens_average_just_large_inputs=pd.DataFrame(sens_average_just_large_inputs)
+
+chart1=alt.Chart(sens_average).transform_fold(
+    ['Sensitivity'],
+).transform_joinaggregate(
+    total='count(*)'
+).transform_calculate(
+    pct='1 / datum.total'
+).mark_bar(
+).encode(
+    alt.X("Sensitivity:Q", bin=alt.Bin(step=0.05), scale=alt.Scale(domain=(0, 1.5))),
+    alt.Y('sum(pct):Q', axis=alt.Axis(format='%', title='Percentages'))
+).properties(
+    title= 'All genes included'
+)
+
+
+chart2=alt.Chart(sens_average_just_large_inputs).transform_fold(
+    ['Sensitivity'],
+).transform_joinaggregate(
+    total='count(*)'
+).transform_calculate(
+    pct='1 / datum.total'
+).mark_bar(
+).encode(
+    alt.X("Sensitivity:Q", bin=alt.Bin(step=0.05),  scale=alt.Scale(domain=(0, 1.5))),
+    alt.Y('sum(pct):Q', axis=alt.Axis(format='%', title='Percentages'))
+).properties(
+    title= 'More than two inputs'
+)
+
+alt.vconcat(chart2,chart1).show()
+

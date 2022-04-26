@@ -1,0 +1,1 @@
+( PKA AND ( ( ( NOT Gai  OR NOT Rap1 ) )  AND ( ( Src  AND cAMP ) ) )    )  OR ( CaMK AND ( ( ( Src  AND cAMP ) )  AND ( ( NOT Gai  OR NOT Rap1 ) ) )    ) 
